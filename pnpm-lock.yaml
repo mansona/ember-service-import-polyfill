@@ -14,12 +14,6 @@ importers:
       ember-cli-babel:
         specifier: ^8.3.1
         version: 8.3.1(@babel/core@7.29.7)
-      ember-cli-htmlbars:
-        specifier: ^7.0.1
-        version: 7.0.1(@babel/core@7.29.7)(ember-source@7.1.0(@glimmer/component@2.1.1))
-      ember-template-imports:
-        specifier: ^4.4.0
-        version: 4.4.0
     devDependencies:
       '@babel/eslint-parser':
         specifier: ^7.29.7
@@ -69,6 +63,9 @@ importers:
       ember-cli-deprecation-workflow:
         specifier: ^4.0.1
         version: 4.0.1(@babel/core@7.29.7)
+      ember-cli-htmlbars:
+        specifier: ^7.0.1
+        version: 7.0.1(@babel/core@7.29.7)(ember-source@7.1.0(@glimmer/component@2.1.1))
       ember-cli-inject-live-reload:
         specifier: ^2.1.0
         version: 2.1.0
@@ -2409,10 +2406,6 @@ packages:
   ember-template-imports@3.4.2:
     resolution: {integrity: sha512-OS8TUVG2kQYYwP3netunLVfeijPoOKIs1SvPQRTNOQX4Pu8xGGBEZmrv0U1YTnQn12Eg+p6w/0UdGbUnITjyzw==}
     engines: {node: 12.* || >= 14}
-
-  ember-template-imports@4.4.0:
-    resolution: {integrity: sha512-HNOHabTEMbRluci1uScvh3ljMDo9E46dHHNcJAIf5yjOhIQ/zN4Y0DVDWrRfcbihlHvt4v/iF69G+8tffC1YkA==}
-    engines: {node: 16.* || >= 18}
 
   ember-template-lint@6.1.0:
     resolution: {integrity: sha512-UyzLPcyneG3mnbBfewyYIlV7fy6JKHQVAJy5a9+URdJKkZKN+3vQkQzIIlsz6dP/GpoXVB+datns5HlfMfliSA==}
@@ -8229,14 +8222,6 @@ snapshots:
       parse-static-imports: 1.1.0
       string.prototype.matchall: 4.0.12
       validate-peer-dependencies: 1.2.0
-    transitivePeerDependencies:
-      - supports-color
-
-  ember-template-imports@4.4.0:
-    dependencies:
-      broccoli-stew: 3.0.0
-      content-tag: 4.2.0
-      ember-cli-version-checker: 5.1.2
     transitivePeerDependencies:
       - supports-color
 
