@@ -1,0 +1,26 @@
+{
+  "solution": {
+    "ember-service-import-polyfill": {
+      "impact": "major",
+      "oldVersion": "0.0.0",
+      "newVersion": "1.0.0",
+      "tagName": "latest",
+      "constraints": [
+        {
+          "impact": "major",
+          "reason": "Appears in changelog section :boom: Breaking Change"
+        },
+        {
+          "impact": "patch",
+          "reason": "Appears in changelog section :memo: Documentation"
+        },
+        {
+          "impact": "patch",
+          "reason": "Appears in changelog section :house: Internal"
+        }
+      ],
+      "pkgJSONPath": "./package.json"
+    }
+  },
+  "description": "## Release (2026-07-21)\n\n* ember-service-import-polyfill 1.0.0 (major)\n\n#### :boom: Breaking Change\n* `ember-service-import-polyfill`\n  * [#2](https://github.com/mansona/ember-service-import-polyfill/pull/2) add babel-plugin for old Ember versions ([@mansona](https://github.com/mansona))\n\n#### :memo: Documentation\n* `ember-service-import-polyfill`\n  * [#3](https://github.com/mansona/ember-service-import-polyfill/pull/3) add a readme ([@mansona](https://github.com/mansona))\n\n#### :house: Internal\n* `ember-service-import-polyfill`\n  * [#6](https://github.com/mansona/ember-service-import-polyfill/pull/6) ignore CHANGELOG in prettier ([@mansona](https://github.com/mansona))\n  * [#4](https://github.com/mansona/ember-service-import-polyfill/pull/4) add release-plan ([@mansona](https://github.com/mansona))\n  * [#1](https://github.com/mansona/ember-service-import-polyfill/pull/1) Basic test setup ([@mansona](https://github.com/mansona))\n\n#### Committers: 1\n- Chris Manson ([@mansona](https://github.com/mansona))\n"
+}
