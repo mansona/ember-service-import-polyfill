@@ -16,6 +16,7 @@ module.exports = async function () {
             'ember-qunit': '^5.0.0',
             '@ember/test-helpers': '^2.0.0',
             'ember-cli-htmlbars': '^6.0.0',
+            'ember-page-title': '^8.0.0',
           },
         },
       },
@@ -28,6 +29,7 @@ module.exports = async function () {
             'ember-qunit': '^5.0.0',
             '@ember/test-helpers': '^2.0.0',
             'ember-cli-htmlbars': '^6.0.0',
+            'ember-page-title': '^8.0.0',
           },
         },
       },
@@ -39,6 +41,34 @@ module.exports = async function () {
             'ember-cli': '^4.12.0',
             'ember-qunit': '^6.0.0',
             '@ember/test-helpers': '^2.0.0',
+          },
+        },
+      },
+      // these non-lts versions are here because it's around when the new service import was added
+      {
+        name: 'ember-4.0',
+        npm: {
+          devDependencies: {
+            'ember-source': '~4.0.0',
+            'ember-qunit': '^7.0.0',
+          },
+        },
+      },
+      {
+        name: 'ember-4.1',
+        npm: {
+          devDependencies: {
+            'ember-source': '~4.1.0',
+            'ember-qunit': '^7.0.0',
+          },
+        },
+      },
+      {
+        name: 'ember-4.2',
+        npm: {
+          devDependencies: {
+            'ember-source': '~4.2.0',
+            'ember-qunit': '^7.0.0',
           },
         },
       },

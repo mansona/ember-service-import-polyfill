@@ -91,6 +91,7 @@ export default [
       '.stylelintrc.js',
       '.template-lintrc.js',
       'ember-cli-build.js',
+      'babel-plugin.js',
     ],
     plugins: {
       n,
