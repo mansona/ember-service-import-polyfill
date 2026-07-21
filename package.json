@@ -5,7 +5,10 @@
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mansona/ember-service-import-polyfill.git"
+  },
   "license": "MIT",
   "author": "",
   "directories": {
@@ -26,8 +29,8 @@
     "lint:js:fix": "eslint . --fix",
     "start": "ember serve",
     "test": "concurrently \"pnpm:test:*(!fix)\" --names \"test:\" --prefixColors auto",
-    "test:node": "vitest",
-    "test:ember": "ember test"
+    "test:ember": "ember test",
+    "test:node": "vitest"
   },
   "dependencies": {
     "@babel/core": "^7.29.7",
@@ -74,6 +77,7 @@
     "prettier-plugin-ember-template-tag": "^2.1.6",
     "qunit": "^2.26.0",
     "qunit-dom": "^3.5.1",
+    "release-plan": "^0.18.0",
     "stylelint": "^16.26.1",
     "stylelint-config-standard": "^36.0.1",
     "vitest": "^4.1.10",
@@ -82,6 +86,7 @@
   "peerDependencies": {
     "ember-source": ">= 4.0.0"
   },
+  "packageManager": "pnpm@10.34.4+sha512.8768be55200ae3f2226b6527fcca2687e14bc4e5f12d7721a0f25da3df47915177058648db4177baf348120fa0ba2752d8d8d93f6beaf1fe64ae18da8de961af",
   "engines": {
     "node": ">= 20.19"
   },
@@ -90,6 +95,5 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  },
-  "packageManager": "pnpm@10.34.4+sha512.8768be55200ae3f2226b6527fcca2687e14bc4e5f12d7721a0f25da3df47915177058648db4177baf348120fa0ba2752d8d8d93f6beaf1fe64ae18da8de961af"
+  }
 }
